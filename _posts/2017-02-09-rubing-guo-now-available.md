@@ -3,8 +3,8 @@ layout: post
 title: One last step is Hosting Website On My Own
 ---
 
-I wanted to build my own website without a lot of animation, video and other fancy staff, and now I have it!
-The rest is to host my website on my own!!
+It is a to do list, if you have some link or experience on how to host your personal website, using customer domain, and would like to share with me, you are more than welcome to leave a comment below!
 
 * Add some features on my contact page: List --> Gallery
 * Learn hosting website
+* Update Blog very often
