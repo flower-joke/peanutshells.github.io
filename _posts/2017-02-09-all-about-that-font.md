@@ -15,4 +15,9 @@ Everytime when I write .md file, I got confused and need this [Markdown Syntax P
 * Lucida Console
 * Monospace
 
-d
+
+* * * * * 
+*********
+** a super strong word **
+*a strong word*
+
