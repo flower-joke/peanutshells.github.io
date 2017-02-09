@@ -6,8 +6,15 @@ body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Geo
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', monospace, Times; font-weight: 700;}
 
 */
+body { padding-top: 20px; 
+	   padding-bottom: 40px; 
+	   font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;}
 
-/*  -------------------------------------  */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
+		font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+		font-weight: 700;}
+
+/*  ------------------golden ratio-------------------  */
 h1 {
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 23px;
@@ -49,10 +56,11 @@ pre {
 	line-height: 23px;
 }
 
-/*  -------------------------------------  */
+/*  ------------------golden ratio-------------------  */
+/*
 body { font-size: 16px; }
 blockquote p { font-size: 16px; line-height: 1.6em; }
-
+*/
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
