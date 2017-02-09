@@ -16,8 +16,8 @@ Everytime when I write .md file, I got confused and need this [Markdown Syntax P
 * Monospace
 
 
-* * * * * 
-*********
-** a super strong word **
-*a strong word*
+* * * 
+***
+a **super-strong** word
+a *strong* word****
 
