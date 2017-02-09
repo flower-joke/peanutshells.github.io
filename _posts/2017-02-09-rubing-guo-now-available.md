@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One last step: Hosting Website On My Own
+title: One last step is Hosting Website On My Own
 ---
 
 I wanted to build my own website without a lot of animation, video and other fancy staff, and now I have it!
