@@ -19,5 +19,5 @@ Everytime when I write .md file, I got confused and need this [Markdown Syntax P
 * * * 
 ***
 a **super-strong** word
-a *strong* word****
+a *I* word
 
