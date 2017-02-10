@@ -18,6 +18,8 @@ date: 2017-02-10
 | ledger             | 分类帐        
 
 
+
+
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
@@ -25,17 +27,17 @@ Markdown | Less | Pretty
 
 
 # Accounts Payable Concepts
->The `accounts payable` process involves reviewing an enormous amount of detail to ensure that only legitimate  and accurate amounts are >entered in the accounting system. Much of the information that needs to be reviewed will be found in the following documents:
+The `accounts payable` process involves reviewing an enormous amount of detail to ensure that only legitimate  and accurate amounts are entered in the accounting system. Much of the information that needs to be reviewed will be found in the following documents:
 *	purchase orders issued by the company
 *	receiving reports issued by the company
 *	invoices from the company's vendors
 *	contracts and other agreements
 
->The accuracy and completeness of a company's financial statements are dependent on the accounts payable process. A well-run accounts >payable process will include:
+The accuracy and completeness of a company's financial statements are dependent on the accounts payable process. A well-run accounts payable process will include:
 *	the timely processing of accurate and legitimate vendor invoices,
 *	accurate recording in the appropriate general ledger  accounts, and
 *	the accrual of obligations and expenses that have not yet been completely processed.
 
->The efficiency and effectiveness of the accounts payable process will also affect the company's cash position, credit rating, and >relationships with its suppliers.
+The efficiency and effectiveness of the accounts payable process will also affect the company's cash position, credit rating, and relationships with its suppliers.
 
 # Examples 举个栗子
