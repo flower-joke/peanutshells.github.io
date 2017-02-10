@@ -6,16 +6,7 @@
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 500;}
 
-/*
 
-body { padding-top: 20px; 
-	   padding-bottom: 40px; 
-	   font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
-		font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-		font-weight: 700;}
-*/
 /*  ------------------golden ratio-------------------  */
 /*
 h1 {
@@ -151,13 +142,4 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
 
-/* Aside on blog page */
-.content .aside {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 30%;
-    height: 100%;
-    max-width: 500px;
-    background: #59a0b0;
-}
+
