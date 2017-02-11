@@ -111,6 +111,6 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
     height: 20px;
     padding: 0 5px;
 }
-.btn-viewing-now a, a:hover {
+.btn-viewing-now a, .btn-viewing-now a:hover {
 	color: white;
 }
