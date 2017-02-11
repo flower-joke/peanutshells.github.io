@@ -142,7 +142,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
 /* btn Viewing now */
-.btn {
+.btn-viewing-now {
     color: #fff;
     border: 1px solid rgba(0,0,0,0.18); 
     background: rgba(0,0,0,0.38);
