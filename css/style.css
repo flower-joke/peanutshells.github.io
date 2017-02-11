@@ -141,5 +141,10 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	margin: 5px 15px 0px 0px;
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
-
-
+/* btn Viewing now */
+.btn {
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.18); 
+    background: rgba(0,0,0,0.38);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.08);
+}
