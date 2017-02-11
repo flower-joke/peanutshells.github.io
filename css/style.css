@@ -5,54 +5,6 @@
 
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 500;}
-
-
-/*  ------------------golden ratio-------------------  */
-/*
-h1 {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 23px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 23px;
-}
-h3 {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 17px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 23px;
-}
-
-p {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
-blockquote {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 17px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
-pre {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 11px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
-*/
-/*  ------------------golden ratio-------------------  */
-
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
@@ -144,7 +96,11 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 /* btn Viewing now */
 .btn-viewing-now {
     color: #fff;
+    border-radius: 2px;	
     border: 1px solid rgba(0,0,0,0.18); 
     background: rgba(0,0,0,0.38);
     text-shadow: 1px 1px 0 rgba(0,0,0,0.08);
+}
+.btn-viewing-now:hover {
+	color: white;
 }
