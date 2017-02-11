@@ -100,6 +100,16 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
     border: 1px solid rgba(0,0,0,0.18); 
     background: rgba(0,0,0,0.38);
     text-shadow: 1px 1px 0 rgba(0,0,0,0.08);
+    position: absolute;
+    z-index: 999999999999;
+    white-space: nowrap;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    font: 600 12px/18px "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    height: 20px;
+    padding: 0 5px;
 }
 .btn-viewing-now a, a:hover {
 	color: white;
