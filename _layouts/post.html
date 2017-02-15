@@ -2,7 +2,19 @@
 layout: default
 blog: active
 ---
-
+{% if page.protect == true %}
+	
+<script language = "Javascript">
+  var passwd;
+  var pass1 = "12345";
+  passwd = prompt('Enter Password To View Page', ' ');
+  if(passwd==pass1)
+  alert('Correct password, click OK to continue.');
+  else{
+  window.location="http://google.com";
+  }
+</script>
+{% endif %}
 <div class="notes">
 		<div class="note single">
 			<h1 class="title">{{ page.title }}</h1>
