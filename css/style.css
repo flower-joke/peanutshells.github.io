@@ -17,8 +17,8 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* a link color */
 a { color: #000000; text-decoration: none; }
-a:hover{ color: #ffa6f3; text-decoration: none; }
-
+a:hover { color: #ffa6f3; text-decoration: none; }
+.nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #ffa6f3; }
 /* Page title */
 h1.page-title { text-align: center; }
 
