@@ -12,12 +12,15 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 .footer { color: #BBB; }
 
 /* change background color of selected text or content */
-::selection { background: #a8d1ff; /* WebKit/Blink Browsers */ }
-::-moz-selection { background: #a8d1ff; /* Gecko Browsers */}
+::selection { background: #ffa6f3; /* WebKit/Blink Browsers */ }
+::-moz-selection { background: #ffa6f3; /* Gecko Browsers */}
 
 /* a link color */
 a { color: #000000; text-decoration: none; }
 a:hover { color: #ffa6f3; text-decoration: none; }
+.content a { color: #a8d1ff; text-decoration: none; }
+.content a:hover { color: #428bca; text-decoration: underline; }
+
 .nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background: none; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #ffa6f3; background: none; }
 
