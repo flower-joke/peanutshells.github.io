@@ -9,6 +9,7 @@ body { padding-top: 20px; padding-bottom: 40px; font-family: 'Roboto', sans-seri
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Roboto', sans-serif; font-weight: 500; }
 blockquote p { font-size: 16px; line-height: 1.6em; }
 .footer { font-family: 'Roboto', sans-serif; font-weight: 500; text-transform: capitalize; }
+.footer { color: #BBB; }
 /* Page title */
 h1.page-title { text-align: center; }
 
