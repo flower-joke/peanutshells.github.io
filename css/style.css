@@ -23,7 +23,7 @@ a, a:active, a:focus { outline: none; /* remove outline on IE browser */}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #ffa6f3; background: none; }
 
 /* Page title */
-h1.page-title { text-align: center; }
+.content h1 { text-align: center; }
 
 /* Masthead */
 .header, .header h3 { font-family: 'Roboto', sans-serif; text-transform: uppercase; font-weight: normal; }
