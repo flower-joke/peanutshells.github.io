@@ -86,6 +86,7 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 
 /* Contact */
 iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
+.contact .form { width: 100%; }
 ul {
     padding:0;
     list-style: none;
