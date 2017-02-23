@@ -98,30 +98,22 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 /* Contact */
 iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
 .contact .form { width: 100%; }
-ul {
-    padding:0;
-    list-style: none;
-}
+.author-social-container { padding-top: 20px; }
+.author-social-container .author-social { display: block; max-width: 125px; margin: auto; margin-bottom: 5px; }
 .footer-social-icons {
     width: 350px;
     display:block;
     margin: 0 auto;
 }
-.social-icon {
+/*.social-icon {
     color: #fff;
 }
-ul.social-icons {
-    margin-top: 10px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
+
+
 .social-icons a {
     color: #fff;
     text-decoration: none;
-}
+}*/
 
 /* About */
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
