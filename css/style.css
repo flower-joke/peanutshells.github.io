@@ -21,6 +21,17 @@ a, a:active, a:focus { outline: none; /* remove outline on IE browser */}
 .header a:hover { color: #ffa6f3; text-decoration: none; }
 .nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background: none; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #ffa6f3; background: none; }
+/* transition */
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
+    -webkit-transition: all .2s ease; 
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease; 
+}
+
+
+
 
 /* Change Bootstrap Default settings */
 .nav li a {
