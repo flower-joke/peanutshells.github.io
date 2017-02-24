@@ -23,7 +23,9 @@
     		var feed = new Instafeed({
         	get: 'tagged',
         	tagName: 'awesome',
-        	clientId: 'ea187a2be4514b189f591c70b50b4930'
+        	clientId: 'ea187a2be4514b189f591c70b50b4930',
+		template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+
     		});
     		feed.run();
 	</script>
