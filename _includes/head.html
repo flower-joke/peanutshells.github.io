@@ -19,6 +19,14 @@
 	<link href="/css/jumbotron-narrow.css" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="/js/instafeed.min.js"></script>
+	<script type="text/javascript">
+    		var feed = new Instafeed({
+        	get: 'tagged',
+        	tagName: 'awesome',
+        	clientId: 'ea187a2be4514b189f591c70b50b4930'
+    		});
+    		feed.run();
+	</script>
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
   <script src="../../assets/js/html5shiv.js"></script>
