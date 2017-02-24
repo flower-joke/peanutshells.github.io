@@ -107,6 +107,7 @@ form .form-row { padding-top: 10px; }
     display:block;
     margin: 0 auto;
 }
+.author-social-container p { max-width: 70px; margin: auto; text-align: center; }
 /*.social-icon {
     color: #fff;
 }
