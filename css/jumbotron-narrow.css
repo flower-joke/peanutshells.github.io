@@ -69,7 +69,7 @@ body {
     padding-right: 0;
   }
   /* Space out the masthead */
-  .header {
+  .header .content{
     margin-bottom: 30px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
