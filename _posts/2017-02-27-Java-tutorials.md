@@ -9,9 +9,9 @@ A try/catch block is placed around the code that might generate an exception.
 Syntax: 
 ```
 try {
-//some code
+  //some code
 } catch (Exception e) {
-//some code to handle errors
+  //some code to handle errors
 }
 ```
 A catch statement involves declaring the type of exception you are trying to catch. If an exception occurs in the try block, the catch block that follows the try is checked. If the type of exception that occurred is listed in a catch block, the exception is passed to the catch block much as an argument is passed into a method parameter.
@@ -35,14 +35,14 @@ Without the try/catch block this code should crash the program, as a[5] does not
 Notice the (Exception e) statement in the catch block - it is used to catch all possible Exceptions.
 
 ## throw
-The throw keyword allows you to manually generate exceptions from your methods. Some of the numerous available exception types include the IndexOutOfBoundsException, IllegalArgumentException, ArithmeticException, and so on. 
+The throw keyword allows you to manually generate exceptions from your methods. Some of the numerous available exception types include the `IndexOutOfBoundsException`, `IllegalArgumentException`, `ArithmeticException`, and so on. 
 For example, we can throw an ArithmeticException in our method when the parameter is 0. 
 ```
 int div(int a, int b) throws ArithmeticException {
 if(b == 0) {
-throw new ArithmeticException("Division by Zero");
+  throw new ArithmeticException("Division by Zero");
 } else {
-return a / b;
+  return a / b;
 }
 } 
 ```
@@ -50,4 +50,22 @@ The throws statement in the method definition defines the type of Exception(s) t
 Next, the throw keyword throws the corresponding exception, along with a custom message.
 If we call the div method with the second parameter equal to 0, it will throw an ArithmeticException with the message "Division by Zero".
 Multiple exceptions can be defined in the throws statement using a comma-separated list.
+
+```
+/* two sum non-zero based */
+public class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        Map<Integer, Integer> tsMap = new HashMap<Integer, Integer>();
+        for(int i = 0; i< numbers.length; i++){
+            if(tsMap.containsKey(target - numbers[i])){ 
+                return new int[] {tsMap.get(target-numbers[i])+1, i+1}; 
+            }
+            tsMap.put(numbers[i], i);
+        }
+        throw new IllegalArgumentException("no two sum solution");
+    }
+}
+```
+
+
 
