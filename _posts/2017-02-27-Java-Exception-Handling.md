@@ -1,9 +1,8 @@
 ---
-title: Java Tutorial for ABS Beginners
+title: Java Exception Handling
 Date: 2017-02-27
 ---
 
-# 1. Exception Handling
 Exceptions can be caught using a combination of the try and catch keywords.
 A try/catch block is placed around the code that might generate an exception. 
 Syntax: 
