@@ -65,6 +65,12 @@ public class Solution {
     }
 }
 ```
-
+<a href = "https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html">HashMap(Java Platform SE8)</a>
+public HashMap(int initialCapacity)
+Constructs an empty HashMap with the specified initial capacity and the default load factor (0.75).
+Parameters:
+initialCapacity - the initial capacity.
+Throws:
+IllegalArgumentException - if the initial capacity is negative.
 
 
